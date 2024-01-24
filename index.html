@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <p>Input</p>
+        <textarea name="inputarea" id="inputarea" cols="30" rows="10" class="input"></textarea>
+    </div>
+
+    <div class="hexdump">
+        <p>Hexdump</p>
+        <textarea name="hexd" id="hexd" cols="30" rows="10" class="" readonly></textarea>
+    </div>
+
+    <div class="output">
+        <p>Output</p>
+        <textarea name="output" id="output" cols="30" rows="10" class="" readonly></textarea>
+    </div>
+    
+    <div>
+        <p>Accumulator (ACC)</p>
+        <textarea name="accumulator" id="accumulator" cols="5" rows="1" class="acc" readonly></textarea>
+    </div>
+
+    <div class="ix">
+        <p>Index Register (IX)</p>
+        <textarea name="ix" id="ix" cols="5" rows="1" class="acca" readonly></textarea>
+    </div>
+
+    <div class="zf">
+        <p>Zero Flag</p>
+        <textarea name="zf" id="zf" cols="5" rows="1" class="acca" readonly></textarea>
+    </div>
+
+
+    <br>
+    <button id="asm">Assemble</button>
+    <button id="run">Run</button>
+    <button id="reset">Reset Memory</button>
+    <button id="hexdb">Hexdump</button>
+    <p><span style="color: white; background-color: red;">The LSL and LSR instruction currently dont work properly</span></p>
+    <p><span style="color: white; background-color: cadetblue;">Symbolic and Relative addressing have not yet been added</span></p>
+    <p id="p"></p>
+    <hr>
+    <h3>Made By Abdullah Khan</h3>
+    <script src="index.js"></script>
+</body>
+</html>

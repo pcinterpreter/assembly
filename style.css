@@ -1,0 +1,23 @@
+.hexdump{
+    position: absolute;
+    right: 65%;
+    top: 0.01%;
+}
+
+.ix{
+    position: absolute;
+    right: 82%;
+    top: 30.5%
+}
+
+.output{
+    position: absolute;
+    right: 45%;
+    top: 0.01%;
+}
+
+.zf{
+    position: absolute;
+    right: 77%;
+    top: 30.5%
+}
